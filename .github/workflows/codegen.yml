@@ -9,6 +9,7 @@ permissions:
 
 env:
   GRAPHQL_URL: ${{ secrets.GRAPHQL_URL }}
+  GRAPHQL_AUTH_TOKEN: ${{ secrets.GRAPHQL_AUTH_TOKEN }}
   TARGET_NAMESPACE:  'Poolz.Finance.CSharp.DaoSender'
   GENERATED_FILE_PATH: 'src/Poolz.Finance.CSharp.DaoSender/DaoSenderClient.cs'
   CODEGEN_PROJECT: 'src/Poolz.Finance.CSharp.DaoSender.Generator/Poolz.Finance.CSharp.DaoSender.Generator.csproj'
